@@ -1,17 +1,17 @@
 # awesome-adelmonte
 
-A list of the software I've built: Android apps, Wayland desktop components and apps,
-games, system tools for Arch-based Linux and terminal apps. Most of it is written in Rust
-and replaces something I used to run.
+Software I've built for Linux and Android, mostly in Rust.
 
-**Android:** [lanlink-android](#lanlink-android), [music-android](#music-android), [victoria-launcher](#victoria-launcher)<br>
-**Desktop apps:** [document-viewer](#document-viewer), [image-view](#image-view), [langis-gui](#langis-gui)<br>
-**Desktop components:** [emoji-picker-rs](#emoji-picker-rs), [launcher](#launcher), [niri_window_buttons](#niri_window_buttons), [niri_workspaces](#niri_workspaces), [notification-daemon](#notification-daemon), [simplecal](#simplecal), [text_expander](#text_expander), [xdg-desktop-portal-plain](#xdg-desktop-portal-plain)<br>
-**Games:** [hearts-rs](#hearts-rs), [kpat-win95](#kpat-win95), [qt-hearts](#qt-hearts), [solitaire-rs](#solitaire-rs)<br>
-**System:** [arch-native](#arch-native), [Auto Adaptive Backlight](#auto-adaptive-backlight), [hdas](#hdas), [Network-Aware Firewall](#network-aware-firewall), [pkgbuild-audit](#pkgbuild-audit), [ukigen](#ukigen)<br>
-**Terminal:** [audio-tui](#audio-tui), [bluetooth-tui](#bluetooth-tui), [file-browser-tui](#file-browser-tui), [lanlink](#lanlink), [music-tui](#music-tui), [network-tui](#network-tui), [Simple Package Manager](#simple-package-manager)<br>
-**Other:** [langis](#langis), [llm-cli](#llm-cli), [music-kodi](#music-kodi)<br>
-**Older:** [earlier versions and X11 tools](#older)
+## Contents
+
+- [Android](#android)
+- [Desktop apps](#desktop-apps)
+- [Desktop components](#desktop-components)
+- [Games](#games)
+- [System](#system)
+- [Terminal](#terminal)
+- [Other](#other)
+- [Older](#older)
 
 ## Android
 
