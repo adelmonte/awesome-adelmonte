@@ -1,6 +1,6 @@
 # awesome-adelmonte
 
-Software I've built for Linux and Android, mostly in Rust.
+Software I've built for Linux and Android.
 
 ## Contents
 
