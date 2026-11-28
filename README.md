@@ -75,7 +75,7 @@ A minimal, keyboard-driven image viewer: an egui port of qView. No GTK, no Qt.
 
 - qView's behavior, settings and shortcuts
 - Color management with lcms2
-- Wayland or X11
+- Wayland
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="badges/image-view-dark.svg"><img src="badges/image-view-light.svg" height="20" alt="language, stars and forks"></picture>
 
@@ -100,7 +100,7 @@ Install from the AUR: [`langis-gui`](https://aur.archlinux.org/packages/langis-g
 
 ### [emoji-picker-rs](https://github.com/adelmonte/emoji-picker-rs)
 
-A GTK4 emoji picker for Wayland. A rewrite of [emoji.py](https://github.com/adelmonte/emoji.py) that opens noticeably faster.
+A Wayland emoji picker built on [gui-toolkit](https://github.com/adelmonte/gui-toolkit), no GTK. A rewrite of [emoji.py](https://github.com/adelmonte/emoji.py) that opens noticeably faster.
 
 <img src="screenshots/emoji-picker-rs.png" width="720" alt="emoji-picker-rs">
 
@@ -441,7 +441,7 @@ app and other machines running lanlink.
 
 - Files, links and text both ways, and the clipboard on request
 - Browse the phone's storage over sshfs; the phone controls desktop media players
-- Remote mouse and keyboard in either direction, on any compositor or X11
+- Remote mouse and keyboard in either direction, on any Wayland compositor
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="badges/lanlink-dark.svg"><img src="badges/lanlink-light.svg" height="20" alt="language, stars and forks"></picture>
 
