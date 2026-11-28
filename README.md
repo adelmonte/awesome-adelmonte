@@ -311,6 +311,26 @@ package left behind after you uninstall it.
 
 Install from the AUR: [`hdas`](https://aur.archlinux.org/packages/hdas)
 
+### [init](https://github.com/adelmonte/init)
+
+A small init system for Linux: `init` (process 1), `supervisor` (runs your services) and
+`svctrl` (controls them). Does what dinit doesn't: cgroups, sd_notify and socket activation.
+
+```
+$ svctrl start web
+web: exited with code 1
+  last output:
+    09:43:24 httpd: bind: Address already in use
+```
+
+- Every service in its own cgroup, so stopping it stops everything it started, with per-service memory limits
+- sd_notify readiness and a watchdog for hung daemons, with no wrappers or sleep loops
+- Starts daemons on the first connection to their socket; survives a crash of its service manager
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="badges/init-dark.svg"><img src="badges/init-light.svg" height="20" alt="language, stars and forks"></picture>
+
+Install with the PKGBUILD in the repo
+
 ### [Network-Aware Firewall](https://github.com/adelmonte/Network_Aware_Firewall)
 
 An nftables firewall that switches between home and public rules on its own, through a
