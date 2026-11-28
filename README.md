@@ -536,7 +536,6 @@ Install the zip from the [Releases](https://github.com/adelmonte/music-kodi/rele
 Earlier versions, kept for reference:
 
 - [emoji.py](https://github.com/adelmonte/emoji.py): a Python emoji picker. Replaced by emoji-picker-rs.
-- [evince-rs](https://github.com/adelmonte/evince-rs): a Rust + GTK3 port of Evince. Replaced by document-viewer.
 - [g-view](https://github.com/adelmonte/g-view): a Rust + GTK3 port of qView. Replaced by image-view.
 - [Weather-Widget](https://github.com/adelmonte/Weather-Widget): a three-day forecast for the Xfce panel.
 - [x11_shake_to_magnify_cursor](https://github.com/adelmonte/x11_shake_to_magnify_cursor): shake the mouse to make the cursor big, for X11.
